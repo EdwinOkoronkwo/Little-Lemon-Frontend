@@ -9,7 +9,7 @@ import Reservations from "./components/Reservations";
 const Nav = () => {
   return (
     <>
-      <nav>
+      <nav className="container">
         <Link to="/" className="nav-item">
           Home
         </Link>
@@ -17,13 +17,13 @@ const Nav = () => {
           About
         </Link>
         <Link to="/menu" className="nav-item">
-          menu
+          Menu
         </Link>
         <Link to="/reservations" className="nav-item">
           Reservations
         </Link>
         <Link to="/order-online" className="nav-item">
-          Order online
+          Order Online
         </Link>
         <Link to="/login" className="nav-item">
           Login
