@@ -3,6 +3,18 @@
   padding: 0;
 }
 
+body {
+  font-family: "Markazi Text";
+}
+
+.header-nav {
+  display: flex;
+}
+
+.container {
+  list-style-type: none;
+}
+
 .container {
   background-color: none;
   display: flex;
@@ -10,13 +22,22 @@
   justify-content: stretch;
 }
 
-/* .container {
-  list-style-type: none;
-} */
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #495e57;
+}
+
+.first-article,
+.second-article {
+  width: 300px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
 
 /* .nav-item {
-  display: ;
-} */
+    display: ;
+  } */
 
 .nav-item {
   display: inline-block;
@@ -33,16 +54,105 @@
   background-color: #f4ce14;
 }
 
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h1 {
+  font-size: 64px;
+  color: #f4ce14;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2 {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #f4ce14;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 16px;
+  font-weight: 500;
+}
+
+.second-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+section > p {
+  font-size: 32px;
+}
+
+.third-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.third-section article {
+  background-color: lightgray;
+  width: 300px;
+  height: 500px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* h4 {
+  font-size: 18px;
 } */
+
+span {
+  margin-left: 60px;
+  font-size: 16px;
+  font-weight: 500;
+  color: red;
+}
+
+#bike {
+  margin-left: 20px;
+}
+
+footer {
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  font-family: Karla;
+  font-weight: 400;
+}
+
+footer > div {
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.nav-container {
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.footer-nav-item {
+  display: block;
+  font-size: 12px;
+  padding: 5px;
+
+  margin: 0 10px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Karla;
+  font-weight: 400;
+  color: black;
+}
